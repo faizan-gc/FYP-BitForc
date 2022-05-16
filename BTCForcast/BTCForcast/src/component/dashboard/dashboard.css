@@ -1,0 +1,227 @@
+.analytics-box-title{
+    color: #8F9FB4;
+    font-size: 11px;
+    font-weight: 500;
+}
+.analytic-percentage{
+    color: #28CB89;
+    font-size: 12px;
+}
+.last-month{
+    color: #ABB7C7;
+    font-size: 11px;
+}
+
+.border-transparent{
+    border: transparent !important;
+}
+.br-10{
+    border-radius: 10px !important;
+}
+.mile{
+    font-size: 13px;
+}
+.analytic-box-img{
+    width: 35px ;
+}
+.chart-time{
+    font-weight: 600;
+    color: #8F9FB4;
+    font-size: 13px;
+}
+.chart-time:hover,.chart-time:focus{
+    color: #272D3B ;
+    text-decoration: none;
+
+}
+.chart-time-active{
+    color: #272D3B !important;
+}
+.chart-heading{
+    font-weight: 600;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.monthly{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    padding: 3px 13px 8px 13px;
+}
+.analyticsCard {
+    background-color: #111111 !important;
+    
+}
+.analyticsMainRow {
+    background-color: #111111 !important;
+    border-radius: 10px;
+    align-items: center;
+}
+.dashPriceMain .priceMain h1{
+    color: rgba(255, 255, 255, 0.9);
+}
+.dashPriceMain .priceMain p{
+    color: rgba(255, 255, 255, 0.4);
+}
+.dashPriceMain .priceMain p .perc{
+    margin-left: 4px;
+    display: inline-block;
+    background: linear-gradient(0deg, rgba(23, 203, 73, 0.25), rgba(23, 203, 73, 0.25)), #000000;
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 13px;
+    color: #17CB49;
+}
+.dashPriceMain .priceMain p .acc{
+    color: rgba(255, 255, 255, 0.9);
+}
+.dashPriceMain .priceMain button{
+    color: white;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dashPriceMain .priceMain button span{
+    margin-left: 10px;
+}
+.publicCentMain{
+    padding: 16px;
+    background-color: #111111 !important;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.publicCentMain h5{
+    color: rgba(255, 255, 255, 0.9);
+}
+.publicCentMain .clearfix{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bg-white{
+    background: #fff !important;
+}
+.w-4{
+    width: 4px;
+}
+.diver-name{
+        font-weight: 600;
+        color: #333333;
+        font-size: 13px;
+}
+.driver-status-title{
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.driver-img{
+    width: 2rem;
+    height: 2rem;
+}
+.driver-dash-div{
+    border-top: 1px solid #eeeef0;
+}
+.fs-17{
+    font-size: 17px !important;
+}
+.fs-16{
+    font-size: 16px !important;
+}
+.fs-15{
+    font-size: 15px !important;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-13{
+    font-size: 13px !important;
+}
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-11{
+    font-size: 11px !important;
+}
+.fs-10{
+    font-size: 10px !important;
+}
+.dark-font{
+    color: #333333;
+}
+.status-loaded{
+    color: #17C903 !important;
+}
+.status-waiting{
+    color: #F51F3C !important;
+}
+.status-offline{
+    color: #FFA500 !important;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+/* chart style */
+.chart-area {
+    width: 100%;
+    height: 300px;
+}
+.chart-area svg{
+    width: 100%;
+    height: 100%;
+}
+.chart-area path{
+    stroke-width: 2;
+}
+.chart-area circle{
+    width: 0;
+}
+.chart-area tspan{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+.chart-area .recharts-default-legend{
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+}
+.chart-area .recharts-default-legend .recharts-legend-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart-area .recharts-default-legend .recharts-legend-item svg{
+    width: 20px;
+}
+.chart-area .recharts-default-legend .recharts-legend-item span{
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+.chart-area .recharts-cartesian-grid{
+    display: none !important;
+}
+.h-100{
+    height: 100%;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+@media(max-width:992px) {
+ .analyticsMainRow .dashPriceMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+ }
+}
